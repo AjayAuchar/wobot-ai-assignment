@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import Header from "../Components/Header";
-import Search from "../Components/Search";
-import TableContainer from "../Components/TableCon";
-import { getCamerasData } from "../Api/cameraApi";
+import Header from "../components/Header";
+import Search from "../components/Search";
+import TableContainer from "../components/TableCon";
+import { getCamerasData } from "../api/cameraApi";
 import { useDispatch } from "react-redux";
-import { setCamerasData } from "../Redux/globalSlice";
+import { setCamerasData } from "../redux/globalSlice";
 
 const Dashboard = () => {
   const dispatch = useDispatch();

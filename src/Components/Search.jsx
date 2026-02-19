@@ -1,9 +1,9 @@
 import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
-import useDebounce from "../Hooks/UseDebounce";
-import { setDisplayedData } from "../Redux/globalSlice";
+import useDebounce from "../hooks/UseDebounce";
+import { setDisplayedData } from "../redux/globalSlice";
 import { useDispatch, useSelector } from "react-redux";
-import usePagination from "../Hooks/UsePagination";
+import usePagination from "../hooks/UsePagination";
 
 const Search = () => {
   const dispatch = useDispatch();

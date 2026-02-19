@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Dashboard from "./Pages/Dashboard";
+import Dashboard from "./pages/Dashboard";
 import { Toaster } from "react-hot-toast";
 function App() {
   return (

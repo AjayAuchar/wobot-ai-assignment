@@ -1,11 +1,11 @@
 import React from "react";
-import ProgressBar from "../ReusableComponents/ProgressBar";
+import ProgressBar from "../reusableComponents/ProgressBar";
 import FilterDramaIcon from "@mui/icons-material/FilterDrama";
 import DnsOutlinedIcon from "@mui/icons-material/DnsOutlined";
 import { Button, Checkbox, TableCell, TableRow } from "@mui/material";
 import DoNotDisturbIcon from "@mui/icons-material/DoNotDisturb";
-import { getCamerasData, updateCameraStatus } from "../Api/cameraApi";
-import { setCamerasData } from "../Redux/globalSlice";
+import { getCamerasData, updateCameraStatus } from "../api/cameraApi";
+import { setCamerasData } from "../redux/globalSlice";
 import { useDispatch } from "react-redux";
 
 const TableRowCom = (props) => {

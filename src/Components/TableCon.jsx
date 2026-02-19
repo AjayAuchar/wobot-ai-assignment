@@ -8,13 +8,13 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { Box, Checkbox, TableFooter, TablePagination } from "@mui/material";
-import FilterDropdown from "../ReusableComponents/FilterDropdown";
+import FilterDropdown from "../reusableComponents/FilterDropdown";
 import TableRowCom from "./TableRowCom";
 import PlaceOutlinedIcon from "@mui/icons-material/PlaceOutlined";
 import RssFeedOutlinedIcon from "@mui/icons-material/RssFeedOutlined";
 import { useDispatch, useSelector } from "react-redux";
-import usePagination from "../Hooks/UsePagination";
-import { setDisplayedData } from "../Redux/globalSlice";
+import usePagination from "../hooks/UsePagination";
+import { setDisplayedData } from "../redux/globalSlice";
 
 const TableCon = () => {
   const dispatch = useDispatch();

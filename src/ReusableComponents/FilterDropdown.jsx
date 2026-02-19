@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
-import { setDisplayedData } from "../Redux/globalSlice";
+import { setDisplayedData } from "../redux/globalSlice";
 
 const FilterDropdown = ({ type, data, icon, value, onChange }) => {
   const handleChange = (event) => {

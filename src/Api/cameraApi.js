@@ -1,4 +1,4 @@
-import { ApiInstance } from "../Utils/ApiInstance";
+import { ApiInstance } from "../utils/ApiInstance";
 import toast from "react-hot-toast";
 
 const getCamerasData = async () => {
